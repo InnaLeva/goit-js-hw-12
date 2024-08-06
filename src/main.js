@@ -11,7 +11,7 @@ const form = document.querySelector('.gallery-form');
 const input = document.querySelector('.input-gallery');
 const loader = document.querySelector('.loading');
 const loadMoreBtn = document.querySelector('.load-btn');
-// const card = document.querySelector('.gallery-item');
+
 let currentPage = 1;
 const resultsPerPage = 15;
 let currentQuery = '';
